@@ -19,14 +19,14 @@ python3 train.py -model <encoder_architecture> -dir <train_dir_path> -save_iter 
 ```
 ##### args:
 ```bash
- -model        : one of the cnn architectures - alexnet, resnet18, resnet152, vgg, inception, squeeze, dense<br>
- -dir          : training directory path<br>
- -save_iter    : create model checkpoint after some iterations, default = 10<br>
- -learning_rate: default = 1e-5<br>
- -epoch        : re-train the network from saved checkpoint epoch<br>
- -gpu_device   : gpu device number in case multiple gpus are installed on server<br>
- -hidden_dim   : number of neurons for lstm's hidden state, default = 512<br>
- -embedding_dim: output of cnn encode model, default = 512<br>
+ -model        : one of the cnn architectures - alexnet, resnet18, resnet152, vgg, inception, squeeze, dense
+ -dir          : training directory path
+ -save_iter    : create model checkpoint after some iterations, default = 10
+ -learning_rate: default = 1e-5
+ -epoch        : re-train the network from saved checkpoint epoch
+ -gpu_device   : gpu device number in case multiple gpus are installed on server
+ -hidden_dim   : number of neurons for lstm's hidden state, default = 512
+ -embedding_dim: output of cnn encode model, default = 512
 ```
 
 ### 3. Test
