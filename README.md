@@ -8,6 +8,9 @@ python3, pytorch, pytorch-vision, pillow, nltk, pickle
 
 ## Dataset
 [Flickr8K](http://www.jair.org/papers/paper3994.html)
+train examples: 6000
+dev examples: 1000
+test examples: 1000
 
 ## Instructions to run the code
 
