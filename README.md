@@ -37,17 +37,19 @@ python3 test.py -model <encoder_architecture> -i <image_path> -epoch <saved_mode
 ```bash 
  -i : path of image for generating caption
  ```
+ [Download trained model](https://drive.google.com/open?id=1xF8dfIDsz57ZrX7bKApOakyjm1GoelJm)
  
 ## Results
 
-![Screen Shot](train_demo.png)
+![Screen Shot](train_pic.png)
 
 
-Image  |Original Captions|Predicted Captions after every 10 iterations
+Image  |Original Captions|Predicted Captions
 ----|----|----
-![Screen Shot](check/1.jpg)   | 1. a beagle and a golden retriever wrestling in the grass <br> 2. Two dogs are wrestling in the grass <br> 3. Two puppies are playing in the green grass <br> 4. two puppies playing around in the grass <br> 5. Two puppies play in the grass | 50. a brown and white dog is running through a grassy field . <br> 60. a brown dog is jumping in the air with a red toy in its mouth . <br> 70. a brown dog is running through a grassy field . <br> 100. a brown dog in a field .  <br> 200. a brown and white dog is laying with its mouth open and people up in the grass . <br> 230. a brown dog running through grass .<br>
+![Screen Shot](check/1.jpg)   | 1. a beagle and a golden retriever wrestling in the grass <br> 2. Two dogs are wrestling in the grass <br> 3. Two puppies are playing in the green grass <br> 4. two puppies playing around in the grass <br> 5. Two puppies play in the grass | 50. a brown and white dog is running through a grassy field . <br> 100. a brown dog in a field .  <br> 150. a brown dog is running through a grassy field .  <br> 200. a brown and white dog is laying with its mouth open and people up in the grass . <br> 230. a brown dog running through grass .<br>
 ![Screen Shot](check/2.jpg)    |  1. a brightly decorated bicycle with cart with people walking around in the background  <br> 2. A street vending machine is parked while people walk by  <br> 3. A street vendor on the corner of a busy intersection  <br> 4. People on the city street walk past a puppet theater  <br> 5. People walk around a mobile puppet theater in a big city . | 50. a man with a green shirt is standing in front of a &lt;unk&gt; at a &lt;unk&gt; . <br> 100.  a group of people standing outside a building . <br> 150. a group of people standing around a outside of building . <br> 200.  a group of people are standing around a city street . <br> 230.  a man in a green shirt &lt;unk&gt; a &lt;unk&gt; at a carnival .  <br>
 
+[Presentation](https://docs.google.com/presentation/d/1gn3lCbampV5XWI6PfMbqlIYprzsB1JXaiCoV6gICtP4/edit?usp=sharing)
 
 ## References
  * [Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555)
