@@ -6,6 +6,9 @@ In this project, I have implemented an end-to-end Deep Learning model for Image 
 ## Dependencies
 python3, pytorch, pytorch-vision, pillow, nltk, pickle
 
+## Dataset
+[Flickr8K](http://www.jair.org/papers/paper3994.html)
+
 ## Instructions to run the code
 
 ### 1. Pre-Processing
@@ -57,3 +60,5 @@ Image  |Original Captions|Predicted Captions
  * [Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555)
 
  * [Deep Visual-Semantic Alignments for Generating Image Descriptions](https://cs.stanford.edu/people/karpathy/cvpr2015.pdf)
+ 
+ * [Flickr 8K Dataset](http://www.jair.org/papers/paper3994.html)
