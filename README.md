@@ -24,25 +24,25 @@ python3 Preprocess.py
 python3 train.py -model <encoder_architecture> -dir <train_dir_path> -save_iter <model_checkpoint> -learning_rate <learning_rate> -epoch <re-train_epoch> -gpu_device <gpu_device_number> -hidden_dim <lstm_hidden_state_dim> -embedding_dim <encoder_output>
 ```
 ##### args:
-```bash
- -model        : one of the cnn architectures - alexnet, resnet18, resnet152, vgg, inception, squeeze, dense
- -dir          : training directory path
- -save_iter    : create model checkpoint after some iterations, default = 10
- -learning_rate: default = 1e-5
- -epoch        : re-train the network from saved checkpoint epoch
- -gpu_device   : gpu device number in case multiple gpus are installed on server
- -hidden_dim   : number of neurons for lstm's hidden state, default = 512
- -embedding_dim: output of cnn encode model, default = 512
-```
+
+ `-model`        :   one of the cnn architectures - alexnet, resnet18, resnet152, vgg, inception, squeeze, dense<br>
+` -dir`          : training directory path<br>
+` -save_iter`    : create model checkpoint after some iterations, default = 10<br>
+` -learning_rate`: default = 1e-5<br>
+` -epoch`        : re-train the network from saved checkpoint epoch<br>
+` -gpu_device`   : gpu device number in case multiple gpus are installed on server<br>
+` -hidden_dim`   : number of neurons for lstm's hidden state, default = 512<br>
+` -embedding_dim`: output of cnn encode model, default = 512<br>
+
 
 ### 3. Test
 ```bash
 python3 test.py -model <encoder_architecture> -i <image_path> -epoch <saved_model> -gpu_device <gpu_device_number>
 ```
 ##### args: 
-```bash 
- -i : path of image for generating caption
- ```
+
+` -i` : image path for generating caption <br>
+ 
  [Download trained model](https://drive.google.com/open?id=1xF8dfIDsz57ZrX7bKApOakyjm1GoelJm)
  
 ## Results
@@ -63,8 +63,8 @@ Image  |Original Captions|Predicted Captions
 ![Screen Shot](check/5.jpg)    | 1. Hikers cross a bridge over a fast moving stream and rocky scenery .<br> 2. People crossing a long bridge over a canyon with a river .<br> 3. People walk across a rope bridge over a rocky stream . <br> 4. Some hikers are crossing a wood and wire bridge over a river .<br> 5. Three people are looking across a rope and wood bridge over a river . <br>  | 0. a man in a red of a &lt;unk&gt; . <br> 30. a person in a blue jacket is jumping in the snow .<br> 130. a person in the snow .<br> 230.  a person on a snowboard in the air<br>  
 ![Screen Shot](check/6.jpg)    |  1. Two men in ethnic dress standing in a barren landscape . <br> 2. Two men in keffiyahs stand next to car in the desert and wave at a passing vehicle .<br> 3. Two men in robes wave at an approaching jeep traveling through the sand . <br> 4. Two men in traditional Arab dress standing near a car wave at an SUV in the desert .<br> 5. Two people with head coverings stand in a sandy field .  <br>  | 0.  a man in a red and a white and a dog is on a &lt;unk&gt; . <br> 30. a man and a woman are standing on a bench in a park .<br> 130. a man and a woman dressed in &lt;unk&gt; are walking along a dirt road . <br> 230. a man holding a camera and a woman is walking with her hands on a jumping away from a <br>  
 ![Screen Shot](check/10.jpg)    | 1. A man mountain climbing up an icy mountain . <br> 2. An climber is ascending an ice covered rock face .<br> 3. A person in orange climbs a sheer cliff face covered in snow and ice . <br> 4. Person in a yellow jacket is climbing up snow covered rocks .<br> 5. There is a climber scaling a snowy mountainside .  <br>  | 0. a dog is in the water .<br> 30. a man in a yellow shirt is standing in front of a waterfall . <br> 130. a lone climber walks along a rocky path with mountains in the background .  <br> 230.  a man climbing a huge mountain .<br>  
-
-
+![Screen Shot](check/11.jpg)    | 1. A boy with a stick kneeling in front of a goalie net <br> 2. A child in a red jacket playing street hockey guarding a goal .<br> 3. A young kid playing the goalie in a hockey rink . <br> 4. A young male kneeling in front of a hockey goal with a hockey stick in his right hand .<br> 5. Hockey goalie boy in red jacket crouches by goal , with stick .  <br>  | 0.  a man in a red shirt and a red and a white dog is on a &lt;unk&gt; . <br> 30. aa man and a woman are sitting on a red bench .<br> 130.  a man in a red shirt and a white helmet is sitting on a red leash .  <br> 230.  a man in a red shirt and blue jeans is sitting on a green wall .<br>  
+![Screen Shot](check/12.jpg)    | 1. A group of eight people are gathered around a table at night . <br> 2. A group of people gathered around in the dark .<br> 3. A group of people sit around a table outside on a porch at night . <br> 4.A group of people sit outdoors together at night .<br> 5. A group of people sitting at a table in a darkened room .  <br>  | 0.  a man in a &lt;unk&gt; . <br> 30. a man is sitting on a bench in front of a crowd .<br> 130.  a man in a &lt;unk&gt; room with his closeup of two women . <br> 230.  a group of people are standing in front of a large window .<br>  
 ## References
  * [Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555)
 
