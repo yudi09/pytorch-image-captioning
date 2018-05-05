@@ -54,7 +54,7 @@ python3 test.py -model <encoder_architecture> -i <image_path> -epoch <saved_mode
 
 ` -i` : image path for generating caption <br>
  
- [Download trained model](https://drive.google.com/open?id=1xF8dfIDsz57ZrX7bKApOakyjm1GoelJm)
+ [Download trained model](https://drive.google.com/open?id=1xF8dfIDsz57ZrX7bKApOakyjm1GoelJm): Trained for ~24 hours (230 iterations) on single NVIDIA 1080 (8GB) GTX GPU. 
  
 ## Results
 ### Check whether the model is training or not by overfitting on small dataset.
