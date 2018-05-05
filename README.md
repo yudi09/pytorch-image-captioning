@@ -3,8 +3,19 @@
 ## Abstract
 In this project, I have implemented an end-to-end Deep Learning model for Image Captioning. The architecture consists of Encoder and Decoder Networks. Encoder is one of the pre-trained CNN architectures to get image embedding. Decoder is LSTM network with un-intialized word embeddings.
 
-## Dependencies
-python3, pytorch, pytorch-vision, pillow, nltk, pickle
+## Requirements
+1. python3.6 
+2. [pytorch](http://download.pytorch.org/whl/cu90/torch-0.4.0-cp36-cp36m-linux_x86_64.whl) 
+3. pytorch-vision 
+4. pillow 
+5. nltk  
+6. pickle 
+7. cuda version 9.0/9.1
+8. cuDNN >=7.0
+
+```bash
+pip install http://download.pytorch.org/whl/cu90/torch-0.4.0-cp36-cp36m-linux_x86_64.whl pytorch-vision pillow nltk pickle
+```
 
 ## Dataset
 [Flickr8K](http://www.jair.org/papers/paper3994.html)
