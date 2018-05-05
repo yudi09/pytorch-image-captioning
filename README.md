@@ -18,10 +18,10 @@ pip install http://download.pytorch.org/whl/cu90/torch-0.4.0-cp36-cp36m-linux_x8
 ```
 
 ## Dataset
-[Flickr8K](http://www.jair.org/papers/paper3994.html)
-train examples: 6000
-dev examples: 1000
-test examples: 1000
+[Flickr8K](http://www.jair.org/papers/paper3994.html) <br>
+#train : 6000 <br>
+#dev : 1000 <br>
+#test : 1000 <br>
 
 ## Instructions to run the code
 
