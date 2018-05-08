@@ -82,3 +82,5 @@ Image  |Original Captions|Predicted Captions
  * [Deep Visual-Semantic Alignments for Generating Image Descriptions](https://cs.stanford.edu/people/karpathy/cvpr2015.pdf)
  
  * [Flickr 8K Dataset](http://www.jair.org/papers/paper3994.html)
+ 
+ * [yunjey](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning)
